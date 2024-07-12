@@ -1,0 +1,1662 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap);
+@import url("https://use.typekit.net/cpp3puh.css");
+
+
+body{
+
+    font-family: 'Montserrat';
+}
+
+p{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #091633;
+    width: 100%;
+}
+
+li{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #091633;
+    
+}
+
+#table1, .ng-scope table{
+
+    border-collapse: collapse;
+    border-spacing: 32px;
+}
+th,.table>tbody>tr>td{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #091633;
+   /* padding-left: 32px;
+    padding-right: 32px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: none;
+}
+
+
+
+td{
+
+    border-bottom: 1px solid #c4c4c4;
+    
+    
+
+}
+
+
+.white-text{
+    color: white!important;
+}
+
+
+
+.navbar-default{
+
+    background-color: #091633;
+    border-color: #091633;
+}
+.navbar-default{
+    border-radius: 0px;
+    background-color: #091633;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+  color: #FAFAFA;
+}
+
+
+.navbar-nav li a{
+    font-family: refrigerator-deluxe, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 27px;
+    color: #FAFAFA;
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active,.navbar-default .navbar-nav>li>a:focus {
+  color: #C38E2C;
+  background-color: transparent;
+}
+
+.home-banner{
+height: 510px;
+background-image: url(^media_src_home-banner.png^);
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+.hero-container{
+
+    height:510px;
+    width: 100%;
+    display: table;
+
+}
+
+.hero-tag{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: refrigerator-deluxe, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FAFAFA;
+    
+}
+
+.hero-tag p{
+    font-family: refrigerator-deluxe, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 62px;
+    color: #FAFAFA;
+}
+
+.search-toggle-button-mobile {
+    color: #4b4b4b;
+    font-size: 18px;
+    font-weight: bold;
+    width: inherit;
+    border-radius: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 2px;
+    right: 55px;
+    z-index: 3;
+  }
+
+  .search-toggle-button-mobile.collapsed {
+    color: #4b4b4b;
+    margin-right: 10px;
+    border: none;
+  }
+
+  #primary-search-button:before,
+.btn-arrow:before {
+  
+  font-weight: 100;
+  font-size: 16px;
+}
+
+#primary-search-button {
+    text-transform: uppercase;
+  }
+
+  #primary-search-button:before {
+    margin-right: 5px;
+  }
+
+
+  .primary-button, .btn-default, .btn-general {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: #009EFF;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    color: white;
+    
+  }
+
+  #jdp-apply-button-top{
+    display: none;
+  }
+  #jdp-title-date-posted{
+    display: none;
+  }
+
+  .search-mobile, .search-desktop-home, .search-desktop, #search-widget {
+    background-color: #091633;
+  }
+  
+  .search-mobile .search-box, .search-desktop-home .search-box, .search-desktop .search-box, #search-widget .search-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .search-mobile #search-bar, .search-desktop-home #search-bar, .search-desktop #search-bar, #search-widget #search-bar {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  
+  .search-mobile #search-bar .search-bar-element, .search-desktop-home #search-bar .search-bar-element, .search-desktop #search-bar .search-bar-element, #search-widget #search-bar .search-bar-element {
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .search-mobile #search-bar .search-bar-element input, .search-desktop-home #search-bar .search-bar-element input, .search-desktop #search-bar .search-bar-element input, #search-widget #search-bar .search-bar-element input {
+    font-size: 14px;
+    color: #222222;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-mobile #search-bar .search-bar-element input::-ms-clear, .search-desktop-home #search-bar .search-bar-element input::-ms-clear, .search-desktop #search-bar .search-bar-element input::-ms-clear, #search-widget #search-bar .search-bar-element input::-ms-clear {
+    display: none;
+  }
+  
+  .search-mobile #search-bar .search-bar-element input::-webkit-input-placeholder, .search-desktop-home #search-bar .search-bar-element input::-webkit-input-placeholder, .search-desktop #search-bar .search-bar-element input::-webkit-input-placeholder, #search-widget #search-bar .search-bar-element input::-webkit-input-placeholder {
+    color: #222222;
+  }
+  
+  .search-mobile #search-bar .search-bar-element input:-moz-placeholder, .search-desktop-home #search-bar .search-bar-element input:-moz-placeholder, .search-desktop #search-bar .search-bar-element input:-moz-placeholder, #search-widget #search-bar .search-bar-element input:-moz-placeholder {
+    color: #222222;
+  }
+  
+  .search-mobile #search-bar .search-bar-element input::-moz-placeholder, .search-desktop-home #search-bar .search-bar-element input::-moz-placeholder, .search-desktop #search-bar .search-bar-element input::-moz-placeholder, #search-widget #search-bar .search-bar-element input::-moz-placeholder {
+    color: #222222;
+  }
+  
+  .search-mobile #search-bar .search-bar-element input:-ms-input-placeholder, .search-desktop-home #search-bar .search-bar-element input:-ms-input-placeholder, .search-desktop #search-bar .search-bar-element input:-ms-input-placeholder, #search-widget #search-bar .search-bar-element input:-ms-input-placeholder {
+    color: #222222;
+  }
+  
+  .search-mobile #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+    display: block;
+    text-transform: uppercase;
+    background-color: #009EFF;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .search-mobile #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:hover, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-mobile #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:active, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-mobile #search-bar .search-bar-element.search-widget-container .search-btn:focus, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:focus, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:focus, #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:focus {
+    background-color: #009EFF;
+  }
+  
+  .search-mobile .link-center, .search-desktop-home .link-center, .search-desktop .link-center, #search-widget .link-center {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .search-mobile .link-center .view-all-jobs, .search-desktop-home .link-center .view-all-jobs, .search-desktop .link-center .view-all-jobs, #search-widget .link-center .view-all-jobs {
+    color: white;
+    font-weight: 400;
+  }
+  
+  .search-desktop-home, .search-desktop {
+    background-color: transparent;
+  }
+
+  .snapshot-icon{
+
+    color: #091633;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .search-mobile, .search-desktop-home, .search-desktop, #search-widget {
+      float: none;
+      background-size: cover;
+      padding: 0px;
+    }
+    .search-desktop-home, .search-desktop,
+    #search-widget {
+      position: absolute;
+      bottom: 70px;
+      top: auto;
+      right: 0px;
+      left: 0px;
+    }
+    .search-desktop-home h1, .search-desktop h1,
+    #search-widget h1 {
+      color: #fff;
+      text-align: left;
+      margin: 0px;
+      padding-bottom: 10px;
+    }
+    .search-desktop-home .search-box, .search-desktop .search-box,
+    #search-widget .search-box {
+      margin-top: -19px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    .search-desktop-home .search-box .search-box-content, .search-desktop .search-box .search-box-content,
+    #search-widget .search-box .search-box-content {
+      background-color: rgba(0, 0, 0, 0.5);
+      /*padding-top: 20px;*/
+      padding-bottom: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .search-desktop-home #search-bar, .search-desktop #search-bar,
+    #search-widget #search-bar {
+      max-width: none;
+      display: table;
+    }
+    .search-desktop-home #search-bar .search-bar-element, .search-desktop #search-bar .search-bar-element,
+    #search-widget #search-bar .search-bar-element {
+      display: table-cell;
+      vertical-align: bottom;
+      width: 50%;
+      padding-right: 15px;
+      padding-left: 0px;
+      padding-bottom: 0px;
+    }
+    .search-desktop-home #search-bar .search-bar-element input, .search-desktop #search-bar .search-bar-element input,
+    #search-widget #search-bar .search-bar-element input {
+      height: 40px;
+      max-width: 294px;
+    }
+    .search-desktop-home #search-bar .search-bar-element input::-webkit-input-placeholder, .search-desktop #search-bar .search-bar-element input::-webkit-input-placeholder,
+    #search-widget #search-bar .search-bar-element input::-webkit-input-placeholder {
+      opacity: 0.5;
+    }
+    .search-desktop-home #search-bar .search-bar-element input:-moz-placeholder, .search-desktop #search-bar .search-bar-element input:-moz-placeholder,
+    #search-widget #search-bar .search-bar-element input:-moz-placeholder {
+      opacity: 0.5;
+    }
+    
+    .search-desktop-home #search-bar .search-bar-element input::-moz-placeholder, .search-desktop #search-bar .search-bar-element input::-moz-placeholder,
+    #search-widget #search-bar .search-bar-element input::-moz-placeholder {
+      opacity: 0.5;
+    }
+    .search-desktop-home #search-bar .search-bar-element input:-ms-input-placeholder, .search-desktop #search-bar .search-bar-element input:-ms-input-placeholder,
+    #search-widget #search-bar .search-bar-element input:-ms-input-placeholder {
+      opacity: 0.5;
+    }
+    .search-desktop-home #search-bar .search-bar-element label, .search-desktop #search-bar .search-bar-element label,
+    #search-widget #search-bar .search-bar-element label {
+      color: #fff;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+    .search-desktop-home #search-bar .search-bar-element.search-widget-container, .search-desktop #search-bar .search-bar-element.search-widget-container,
+    #search-widget #search-bar .search-bar-element.search-widget-container {
+      padding-bottom: 0px;
+      padding-right: 0px;
+    }
+    .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn,
+    #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+      background-color: #091633;
+      width: 164px;
+    }
+    .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop-home #search-bar .search-bar-element.search-widget-container .search-btn:focus, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:focus,
+    #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:hover,
+    #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:active,
+    #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:focus {
+      background-color: #610514;
+    }
+    .search-desktop-home .link-center, .search-desktop .link-center,
+    #search-widget .link-center {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: left;
+    }
+    .search-desktop-home .link-center .view-all-jobs, .search-desktop .link-center .view-all-jobs,
+    #search-widget .link-center .view-all-jobs {
+      color: #fff;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    .search-desktop,
+    #search-widget {
+      position: relative;
+      top: auto;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      background-color:#091633
+    }
+    .search-desktop h1,
+    #search-widget h1 {
+      color: #fff;
+      text-align: left;
+    }
+    .search-desktop .search-box .search-box-content,
+    #search-widget .search-box .search-box-content {
+      background-color: transparent;
+    }
+    .search-desktop #search-bar .search-bar-element label,
+    #search-widget #search-bar .search-bar-element label {
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn,
+    #search-widget #search-bar .search-bar-element.search-widget-container .search-btn {
+      background-color: #009EFF;
+      color: white;
+    }
+    .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:hover, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:active, .search-desktop #search-bar .search-bar-element.search-widget-container .search-btn:focus,
+    #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:hover,
+    #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:active,
+    #search-widget #search-bar .search-bar-element.search-widget-container .search-btn:focus {
+      background-color: #02578d;
+    }
+    .search-desktop .link-center .view-all-jobs,
+    #search-widget .link-center .view-all-jobs {
+      color: #fff;
+    }
+   #search-widget {
+      padding: 20px 15px 30px 15px;
+    }
+  }
+  
+  @media (max-width: 374px) {
+    .search-mobile .link-center .view-all-jobs, .search-desktop-home .link-center .view-all-jobs, .search-desktop .link-center .view-all-jobs, #search-widget .link-center .view-all-jobs,
+    .search-desktop-home .link-center .view-all-jobs, .search-desktop .link-center .view-all-jobs,
+    .search-desktop .link-center .view-all-jobs,
+    #search-widget .link-center .view-all-jobs {
+      font-size: 14px;
+    }
+  }
+  
+i.fa.fa-search {
+    font-size: 28px!important;
+    padding-right: 0px;
+    
+}
+
+  
+.tagline{
+
+    
+    vertical-align: middle;
+}
+
+
+.about-us{
+
+    margin-left: 20px;
+}
+
+.title{
+    font-family: refrigerator-deluxe, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 31px;
+    color: #C38E2C;
+    text-transform: uppercase;
+
+}
+
+.center-title{
+    font-family: Refrigerator Deluxe,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+
+color: #C38E2C;
+}
+
+.sub-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #091633;
+
+}
+
+.center-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.sub-text{
+    font-size: 24px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.learn-more-white{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    color: white;
+    
+}
+
+a.learn-more-white:hover {
+  color: #C38E2C;
+}
+
+.learn-more{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C38E2C;
+}
+/*
+.life-section{
+    background-image: url(^media_src_blue-gradient-bg.png^);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -161.8%;
+    margin-top: 130px;
+}
+*/
+
+
+
+.content-divider{
+    margin-top: 24px;
+}
+
+
+.gradient-bg{
+
+    background-image: url(^media_src_blue-gradient-bg.png^);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 38%;
+    background-size: 100%;
+
+}
+
+
+/*.our-mission-bg{
+    background-image: url(^media_src_blue-gradient-bg.png^);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}*/
+.our-mission{
+    padding-top: 255px;
+    padding-bottom: 345px;
+    text-align: center;
+    
+}
+/*.diversity-bg{
+
+    background-image: url(^media_src_blue-gradient-bg.png^);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 1067%;
+}*/
+
+.divider{
+    margin-top: 200px;
+    
+}
+
+.heading{
+    font-family: 'Montserrat';
+}
+
+.stories-content{
+    height: 650px;
+    display: table;
+    width: 100%;
+}
+
+.stories-text{
+
+    display: table-cell;
+    vertical-align: middle;    
+
+}
+
+.story-divider{
+
+    margin-top:135px;
+}
+
+.office-content{
+    height: 650px;
+    display: table;
+    width: 100%;
+}
+
+.office-text{
+
+    display: table-cell;
+    vertical-align: middle;    
+
+}
+
+.hyperlink{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C38E2C;
+}
+
+
+.roles{
+
+text-align: center;
+
+
+
+
+}
+
+.roles-table, .home-table .ng-scope table{
+
+    width: 100%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(9, 22, 51, 0.25);
+    border-radius: 16px;
+
+
+}
+
+.table-header{
+    padding-left: 15px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.job-cell, a.job_widget_title{
+
+    border-left: 32px solid white;
+    
+}
+
+.job-cell a,.job-cell a:hover,a.job_widget_title ,a.job_widget_title :hover{
+  color: #091633;
+}
+
+.job-cell:hover,a.job_widget_title:hover{
+  text-decoration: underline;
+}
+
+.location-cell{
+    font-weight: 400;
+    text-align: right;
+    border-right: 32px solid white;
+}
+
+a.job_widget_location{
+  font-weight: 400;
+    float: right;
+    border-right: 32px solid white;
+    color: #091633;
+    pointer-events: none;
+    cursor: default;
+    
+}
+
+.ng-scope table tr:last-child td{
+  border:none;
+  padding-bottom: 21px;
+}
+
+
+.last-cell{
+
+    border-bottom: none;
+}
+
+
+.fa-chevron-right{
+
+    color: #c38e2c!important;
+    font-size: 16px!important;
+;
+}
+
+
+
+.all-roles{
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+.all-roles a{
+    font-family: 'Montserrat',normal;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FAFAFA;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-image: url(^media_src_Button.png^);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -10px;
+    
+}
+
+.footer-divider{
+
+    margin-top: 280px;
+
+}
+.footer-nav{
+    
+    background-color: #091633;
+}
+
+.footer-navbar{
+    padding-top: 85px;
+    padding-bottom: 150px;
+}
+
+.footer-content-left a{
+    display: block;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.005em;
+/*text-transform: uppercase;*/
+padding-bottom: 10px;
+}
+
+.first-element{
+
+    color: #C38E2C!important;
+    font-size: 18px!important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-content-left li {
+    
+    list-style: none;
+}
+
+.footer-content-center a{
+    display: block;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.005em;
+/*text-transform: uppercase;*/
+padding-bottom: 10px;
+}
+
+.footer-content-center li {
+    
+    list-style: none;
+}
+
+.footer-content-right{
+
+text-align: right;
+}
+
+.footer-content-right p{
+
+    color: white;
+}
+
+
+
+.social-links li{
+
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+}
+
+ul.social-links {
+  text-align: left;
+  padding: 5px;
+}
+
+.fa{
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+    color: white;
+    font: normal normal normal 14px/1 FontAwesome;
+    padding-right: 10px;
+    
+}
+
+.fa-linkedin,.fa-instagram,.fa-facebook,.fa-twitter{
+    font-size:24px!important;
+
+}
+.image{
+
+    display: block;
+    width:100%;
+    border-radius: 20px;
+}
+
+.footer-end,.divider-line{
+
+    padding-bottom: 50px;
+    border-top: 1px solid #C58E00;
+}
+.divider-line{
+  margin-top: 50px;
+}
+
+
+.breadcrumb{
+
+    margin-top: 20px;
+}
+
+a.bread-crumb-item-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #091633;
+}
+
+a#sign-up-widget {
+    font-size: 0px;
+}
+
+#jrp-desktop-facet-col #narrow-search-header {
+    color: #fff;
+}
+
+#narrow-search-header{
+  display: none;
+}
+
+#jrp-desktop-facet-col .facet-arrow{
+  color: #C38E2C;
+}
+
+.desktop-facets .facet-collapsable {
+    padding-bottom: 30px;
+}
+
+
+#jrp-desktop-facet-col .caret-facet-category-header{
+
+    padding: .5em;
+    text-align: center;
+    background-color: #091633;
+    color: white;
+    font-size: 21px;
+    border-top: 1px solid;
+    border-start-start-radius: 4px;
+    border-start-end-radius: 4px;
+
+}
+
+#jrp-desktop-facet-col #desktop-facets-container #desktop-facets-body .view-facet-btn-container {
+    background-color: #091633;
+    border: 1px solid #CCC;
+    border-top: none;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 5px 0px;
+    color: white;
+}
+
+a#desktop_CATEGORY_collapsed_facet_text,a#desktop_LOCATION_collapsed_facet_text {
+    color: white;
+}
+
+#jrp-desktop-facet-col #desktop-facets-container, #jrp-desktop-facet-col #desktop-facets-body {
+    background-color: transparent;
+}
+
+#jrp-desktop-facet-col .view-facet-btn-container, #jrp-desktop-facet-col a.caret-facet-item-container {
+    margin-left: 0;
+    width: 100%;
+    color: #091633;
+   
+}
+
+#jrp-desktop-facet-col .caret-facet-item-container .caret-facet-accent, #jrp-desktop-facet-col .selected-caret-facet-item-container .caret-facet-accent{
+    font-size: o;
+}
+
+div#jrp-pagination-section {
+    display: none;
+}
+
+.pagination{
+
+    float: none;
+    padding-left: 50%;
+}
+
+.pagination>li>a{
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+padding: 6px 5px;
+}
+
+.next-page-caret{
+
+    color: #C38E2C!important;
+    font-size: 20px!important;
+    vertical-align: middle;
+
+}
+
+.job-result-header{
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 1px solid #c38e2c;
+    background:none;
+
+}
+
+#job-result-table .job-result-header{
+
+    border-bottom: 1px solid #091633;
+    background:none;
+}
+
+.job-result-header a{
+
+    color: #091633;
+}
+
+a.job-result-title{
+    font-weight: 600;
+    color: #091633;
+}
+
+.job-location-line {
+    font-weight: 400;
+}
+
+.job-result-date-posted-cell{
+
+    font-weight: 400;
+}
+
+
+.jdp-title-container{
+    background: none;
+    
+    margin-bottom: 0px;
+}
+    
+
+.jdp-title-inner-container{
+
+    background: none;
+    padding: 0px;
+}
+
+.job-details-content{
+
+    background: none;
+    padding-top: 0px;
+}
+
+
+
+/*Location Page*/
+
+
+.location-desc{
+  padding-top: 25px;
+}
+
+.nav-pills>li>a{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+
+
+
+color: #C4C4C4;
+}
+/*
+.nav-pills>li>a:focus.nav-pills>li.active>a:focus{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #091633!important;
+  background: none;
+
+}
+
+.nav-pills>li.active>a,.nav-pills>li.active>a:hover{
+
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #091633;
+background: none!important;
+}
+*/
+
+.nav-pills>li>a:active,.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+  color: #091633;
+  background: none;
+}
+
+
+.location-title{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 29px;
+
+color: #091633;
+}
+
+.location-para-one{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+color: #091633;
+}
+
+.location-job-section{
+  padding-bottom: 128px;
+}
+
+.location-p-heading{
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  text-decoration-line: underline;
+
+  color: #091633;
+}
+
+.jobs-block{
+  background: #FFFFFF;
+box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+
+}
+
+.location-job{
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #091633;
+}
+
+.location-job-content{
+  padding-left: 24px;
+  padding-right: 32px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #091633;
+
+}
+
+.more-details{
+  padding-right: 24px;
+  padding-bottom: 8px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #091633;
+text-align: right;
+}
+.more-details a{
+  color: #091633;
+}
+
+/* location page end*/
+
+/*Who we are */
+
+.who-we-are-banner{
+  padding-top: 85px;
+  padding-bottom: 65px;
+}
+
+.who-we-are-title{
+  padding-bottom: 32px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+}
+
+.life-at-wynnbet{
+  padding-bottom: 64px;
+  
+}
+
+.life-content{
+ text-align: center;
+}
+
+.centralize{
+ text-align:center ;
+}
+
+.Collage{
+  padding-bottom: 128px;
+}
+
+.collage-img{
+  width: 100%;
+}
+
+
+.who-we-are-mission , .who-we-are-inclusion{
+ padding-top: 128px;
+}
+
+.who-we-are-mission-content{
+  height: 365px;
+  display: table;
+  width: 100%;
+}
+
+.who-we-are-mission-text{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.who-we-are-inclusion-content{
+  height: 365px;
+  display: table;
+  width: 100%;
+}
+
+.who-we-are-inclusion-text{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.who-we-are-heading{
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #091633;
+}
+
+.our-values-titles{
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.image-holder{
+  position: relative;
+  text-align: center;
+  color: #C38E2C;
+}
+
+.centered {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.values-text{
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.Careers-at-wynnbet{
+  padding-bottom: 140px;
+}
+
+.open-position, .open-position:hover{
+  background: #112B62;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 26px;
+}
+
+.benefits{
+  background-color: #C38E2C;
+  padding-bottom: 140px;
+}
+
+.benefits-title h3{
+  padding-top: 75px;
+  padding-bottom: 48px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+   text-align: center;
+}
+
+.benefits-left{
+
+  color: white;
+}
+
+.benefits-right{
+  color: white;
+}
+
+.benefits-list{
+  list-style: none;
+  padding: 0px;
+}
+
+.benefits-list li{
+
+  color: white;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+padding-bottom: 16px;
+text-align: center;
+}
+
+li.benefits-list-header{
+  font-weight: 700;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+/*--------------------------------Who we are end -------------------------------*/
+
+
+.jdp-title-container .jdp-job-title{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+
+  color: #091633;
+}
+
+tr#job-result-table-header-table-row {
+  background: none;
+}
+
+#jdp-title-date-posted{
+  color: #091633;
+}
+
+#jdp-not-ready-to-apply-link-top{
+  display: none;
+}
+
+div#jdp-apply-section-top {
+  display: none;
+}
+
+.glyphicon-triangle-top:before {
+  content: "\E253";
+  visibility: hidden;
+}
+
+#st-1 .st-btn[data-network='facebook'] {
+  background-color: #4267B2;
+  display: none!important;
+}
+
+#st-1 .st-btn[data-network='twitter'] {
+  background-color: #55acee;
+  display: none!important;
+}
+
+.content-card {
+  padding: 0.6em 1.2em 0.6em 1.2em;
+}
+
+.content-card-header{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 26px
+}
+
+
+div#jdp-bottom-apply-company-logo-col {
+  display: none;
+}
+
+.col-sm-3.col-md-5 {
+  display: none;
+}
+
+ul ul{
+  list-style: none;
+}
+
+@media (max-width:767px) {
+  
+    .home-banner{
+
+        background-position: center top;
+        background-size: cover;
+        
+    }
+
+    .hero-container{
+
+        height: 350px;
+    }
+
+    .image-mobile{
+      width: 100%;
+      height: auto;
+      
+    }
+
+    .hero-tag{
+        vertical-align: bottom;
+    }
+
+    .gradient-bg{
+        background:none;
+    }
+/*
+    .life-section{
+        background-image: url(^media_src_blue-gradient-bg.png^);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 539.5px;
+        margin-top: 130px;
+    }
+*/
+    .our-mission-bg{
+        background-image: url(^media_src_blue-gradient-bg.png^);
+        background-repeat: no-repeat;
+        background-size: revert;
+        background-position-y: -446px;
+    }
+
+/*
+    .diversity-bg{
+
+        background-image: url(^media_src_blue-gradient-bg.png^);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -987px;
+    }
+*/
+    .our-mission {
+      padding-top: 191px;
+      padding-bottom: 247px;
+      text-align: center;
+  }
+
+    .center-text{
+      font-size: 32px;
+    }
+
+    .sub-text{
+      line-height: unset;
+      font-size: 20px;
+    }
+
+    .stories-content{
+
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .stories-text{
+
+        vertical-align: auto;
+    }
+    .story-divider{
+      margin-top: 0px;
+      
+    }
+
+    .office-content{
+
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .office-text{
+        vertical-align:auto;
+    }
+
+    .divider{
+      margin-top: 15px;
+    }
+
+    .table-header{
+      padding-top: 20px;
+    }
+
+    .location-cell{
+      font-weight: 400;
+      text-align: left;
+      border-right: 32px solid white;
+    }
+    .all-roles{
+
+        margin-top: 18px;
+    }
+
+    .footer-divider{
+      margin-top: 80px;
+    }
+
+    .footer-logo{
+
+        text-align: center;
+    }
+
+    .footer-content-left{
+        
+        margin-top: 20px;
+    }
+
+    .footer-content-right{
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .social-links {
+        padding-left: 0px;
+    }
+
+    #jrp-desktop-facet-col{
+      background-color: #091633;
+      text-align: center;
+    }
+
+    #narrow-search-header{
+      display: unset;
+    }
+
+    .location-image.image {
+      margin-top: 16px;
+  }
+
+    ul.nav.nav-pills.nav-stacked.col-md-3 {
+      display: inline-flex;
+      text-align: center;
+  }
+    
+    .search-desktop-home .link-center, .search-desktop .link-center,
+    #search-widget .link-center {
+      padding-top: 10px;
+      text-align: center;
+    }
+
+
+    /*-------------------Who we are mobile----------------------------------*/
+
+    .who-we-are-title{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #091633;
+    }
+
+    .Collage{
+      padding-bottom: 0px;
+    }
+
+    .who-we-are-mission ,.who-we-are-inclusion{
+      padding-top: 64px;
+    }
+
+    .position-divider{
+      padding-top: 76px;
+    }
+
+    .benefits{
+      padding-bottom: 60px;
+    }
+
+    .benefits-title h3{
+      padding-top: 65px;
+      padding-bottom: 64px;
+    }
+
+    .benefits-list li{
+      padding-top: 32px;
+      font-size: 16px;
+    }
+    
+
+
+    /*------------------------------------Who we are mobile end-----------------------------*/
+}
+
+
+@media(min-width:767px) and (max-width:992px){
+
+  .gradient-bg{
+    background: none;
+  }
+  
+  .our-mission-bg{
+    background-image: url(^media_src_blue-gradient-bg.png^);
+    background-repeat: no-repeat;
+    background-size: revert;
+    background-position-y: -446px;
+}
+.our-mission {
+  padding-top: 255px;
+  padding-bottom: 104px;
+  text-align: center;
+}
+
+.footer-logo {
+  padding-bottom: 25px;
+}
+
+ .footer-content-right{
+  padding: 0px 0px 0px 40px;
+  text-align: revert;
+ }
+
+
+
+
+}
+
+
+@media(min-width:992px) and (max-width:1300px) {
+
+  section.top-navbar {
+    background: #091633;
+}
+  
+  .gradient-bg{
+    background: none;
+  }
+  
+  .our-mission-bg{
+    background-image: url(^media_src_blue-gradient-bg.png^);
+    background-repeat: no-repeat;
+    background-size: revert;
+    background-position-y: -352px;
+}
+
+  ul.social-links {
+  text-align: left;
+  padding: revert;
+}
+}
+
+
+/* ----------------------------------------JOIN OUR TALENT NETWORK------------------------------------------- */
+
+#jfi-modal-side-bar-column strong:first-child, #join-page-content-section strong:first-child{
+  font-size: 20px;
+}
+
+.join-is-not-apply, .join-is-not-apply-mobile{
+  font-size: 14px;
+}
+
+.join-button, .join-button:active, .join-button:focus, .join-button:hover{
+  padding: 5px 15px;
+}
+
+.btn.focus, .btn:focus, .btn:hover{
+  background-color: #02578d;
+  color: #FFFFFF;
+}
+
+
+@media(min-width:992px){
+  .what-it-means{
+    width: 1110px;
+    height: 458px;
+  }
+
+  .who-we-are-img{
+    width: 1140px;
+    height: 482px;
+  }
+}
